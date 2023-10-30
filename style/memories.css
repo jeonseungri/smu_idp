@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 가기전 */
+a:link {
+  color: white;
+}
+/* 갔다온 */
+a:visited {
+  color: white;
+}
+/* 마우스 위에 올라오면 */
+a:hover {
+  color: #ff5c00;
+}
+/* 마우스 누르면 졸라 잠깐 보이는. */
+a:active {
+  color: gray;
+}
+
+.container {
+  /* background-color: green; */
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+.wrapper {
+  /* background-color: blue; */
+  padding-block: 24px;
+}
+
+.nav .wrapper {
+  background-color: #070606;
+  display: flex;
+  justify-content: space-between;
+  padding-block: 24px;
+  padding-bottom: 29px;
+}
+
+.nav .nav__menuWrapper {
+  display: flex;
+  gap: 48px;
+}
+
+/* .nav {
+  font-weight: 400;
+  font-size: 24px;
+} */
+
+.nav__menu {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+header .logo {
+  position: relative;
+  max-width: 80px;
+}
+.logo img {
+  width: 80%;
+  height: auto;
+  max-width: 100%;
+}
+
+iframe,
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+.img {
+  max-width: 1440px;
+  margin-inline: auto;
+}
