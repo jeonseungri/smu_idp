@@ -73,6 +73,7 @@ header .logo {
   /* background-color: aqua; */
   display: flex;
   gap: 36px;
+  margin-right: 36px; /* 첫 번째 요소에 간격을 줌 */
   margin-top: 20px;
   padding-inline: 0;
   justify-content: center;
