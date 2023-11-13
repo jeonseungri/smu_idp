@@ -235,8 +235,9 @@ function draw() {
   pg.text(`${thisWeekText}`, width / 2, 78);
   // 회차
   pg.textAlign(CENTER);
-  pg.textSize(26);
-  pg.textFont('establishRetrosans');
+  pg.textSize(28);
+  pg.textFont('inter');
+  pg.textStyle(BOLD);
   pg.text(`${thisWeekText2}`, width / 2, 50);
 
   //점선
